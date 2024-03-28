@@ -138,12 +138,9 @@ section + section {
 
 .user-post {
     width: 400px;
-    background-color: #e1e1e100;
+    background-color: #e1e1e140;
     color: #fff;
     border-radius: 5px;
-    margin-left: 5px;
-    margin-top: 2px;
-    margin-bottom: 2px;
 }
 
 #imageInputLabel {
