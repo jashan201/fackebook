@@ -97,12 +97,13 @@ let postArray = []; // Array to track posts
         postDate.textContent = post.postDate;
 
         const contentDiv = document.createElement('div');
+        userDiv.classList.add('userPostMsg');
         contentDiv.textContent = post.message;
 
         const imageDiv = document.createElement('div');
         const image = document.createElement('img');
         image.src = post.imageUrl;
-        image.classList.add('images');
+        image.classList.add('userPostImage');
         imageDiv.appendChild(image);
 
         userInfoDiv.appendChild(userImage);
