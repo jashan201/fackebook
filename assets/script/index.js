@@ -2,8 +2,6 @@
 
 import {User, Subscriber} from './subscriber.js';
 
-
-const newSubscriber = new Subscriber('5635', 'john smith', 'john56smith', 'smith35@gmail.com', 12, 5, true);
 const profile = document.querySelector('.profile');
 const profileInfo = document.querySelector('.profile-info')
 const message = document.querySelector('.message');
@@ -12,12 +10,14 @@ const postButton = document.querySelector('#button');
 const profilePic = document.querySelector('.profile-pic');
 const imageInput = document.getElementById('imageInput');
 const userPostContainer = document.querySelector('.user-post');
-const userName = newSubscriber.name;
+const userName = "John Doe";
 const postDate = new Date().toLocaleDateString();
 const postContent = document.querySelector('.postContent');
 const postImage = document.querySelector('.postImage');
 const warning = document.querySelector('.alert');
 
+
+const newSubscriber = new Subscriber('5635', 'john smith', 'john56smith', 'smith35@gmail.com', 12, 5, true);
 
 
 function displaySubscriberInfo() {
