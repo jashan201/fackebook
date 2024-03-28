@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="author" content="Jashanpreet kaur">
+            <meta name="description" content="webpage">
+            <meta name="keywords" content="html, css, web, web development, javascript">
+            <title>Movie Plaza</title>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
+            <link rel="stylesheet" href="./assets/style/index.css" media="all">
+            <script src="./assets/script/index.js" type="module"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Fakebook</h1>
+            <div class="links">
+                <li>Friends</li>
+                <li>Pages</li>
+                <li>Groups</li>
+                <li>My ads</li>
+                <li>Settings</li>
+            </div>
+            <div class="profile" id="profile">
+                <img src="./assets/media/my avatar new.jpg" class="profile-pic">
+            <div class="profile-info"></div>
+             <div class="id"></div>
+             <div class="name"></div>
+             <div class="username"></div>
+             <div class="pages"></div>
+             <div class="Groups"></div>
+             <div class="can-monatize"></div>
+            </div>
+            </div>
+        </header>
+        <main>
+          <div class="container">
+            <section id="post">
+                <input type="text" class="message" placeholder="what's new today?">
+                <div class="image-post">
+                    <div class="image-post"> 
+                    <input type="file" accept=".jpg, .jpeg, .png, .ico" id="imageInput" style="display: none;">
+                    <label for="imageInput" id="imageInputLabel">    
+                    <img src="./assets/media/pictures-16.png" id="images">
+                    </label>
+                    <div class="alert"></div>
+                    <div id="previewContainer"></div>
+                    <button id="button">Post</button>
+                </div>
+            </section>
+            <section class="user-post">
+                <div class="flex space-between">
+                    <div class="flex gap-10">
+                        <img class="images">
+                        <p></p>
+                    </div>
+                    <p></p>
+                </div>
+                <div></div>
+            </section>
+          </div>
+        </main>
+        <script src="./assets/script/index.js" type="module"></script>
+    </body>
+</html>
